@@ -25,6 +25,7 @@ const loop = setInterval(() => {
         //Este if para quando dar game over no caso
 
         mario.src = 'images/game-over.png'; //Quando o mario perde muda para a imagem de game over
+        mario.style.width = '75px'; //Adicionando tamanho ao meu mario quando der game over
 
     }
 
