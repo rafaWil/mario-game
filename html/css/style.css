@@ -5,13 +5,16 @@
     box-sizing: border-box;
 }
 
-.game-board {
+.game-board { /* Div principal */
     width: 80%;
     height: 500px;
     border: 1px solid #333;
     margin: 0 auto;
+    position: relative;
 }
 
-.pipe {
+.pipe { /* Ajustando imagem do Tubo(pipe) */
     position: absolute;
+    bottom: 0;
+    width: 80px;
 }
