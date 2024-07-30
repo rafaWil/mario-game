@@ -12,7 +12,8 @@ const jump = () => {
 
 const loop = setInterval(() => {
 
-    const pipePosition = pipe.offsetLeft;
+    const pipePosition = pipe.offsetLeft; //Pegando imagem do pipe para usarmos a posição 
+    const marioPosition = +window.getComputedStyle(mario).bottom.replace('px', ''); //Pegando imagem mario e todos os estilos aplicados, usando + para fazer conversao em valores numericos
     
     if (pipePosition <= 120) { //Condicao para verificar posicao do mario com o pipe
 
