@@ -1,4 +1,5 @@
-const mario = document.querySelector('.mario');
+const mario = document.querySelector('.mario'); /*Funcao para pegar a imagem do mario */
+const pipe = document.querySelector('.pipe'); /* Funcao para trabalhar com a imagem do pipe */
 
 const jump = () => {
     mario.classList.add('jump');
@@ -8,6 +9,10 @@ const jump = () => {
     }, 500);
 
 }
+
+const loop = setInterval(() => {
+    const pipePosition = 
+}, 10)
 
 
 document.addEventListener('keydown', jump);
