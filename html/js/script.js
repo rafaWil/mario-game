@@ -22,6 +22,9 @@ const loop = setInterval(() => {
 
         mario.style.animation ='none';
         mario.style.bottom = `${marioPosition}px`; //Para parar o mario aonde ele encostar no tubo(PIPE)
+        //Este if para quando dar game over no caso
+
+        mario.src = 'images/game-over.png'; //Quando o mario perde muda para a imagem de game over
 
     }
 
