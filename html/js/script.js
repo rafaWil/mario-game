@@ -11,8 +11,15 @@ const jump = () => {
 }
 
 const loop = setInterval(() => {
-    const pipePosition = 
-}, 10)
+
+    const pipePosition = pipe.offsetLeft;
+    
+    if (pipePosition <= 120) { //Condicao para verificar posicao do mario com o pipe
+
+        pipe.style.animation ='none';
+    }
+
+}, 10);
 
 
 document.addEventListener('keydown', jump);
