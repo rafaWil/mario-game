@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url('../images/fundo.jpg'); /* Caminho para a imagem de fundo */
+    background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-position: center center; /* Centraliza a imagem */
+    margin: 0; /* Remove a margem padrão do body */
+    font-family: Arial, sans-serif; /* Define uma fonte padrão */
+}
+
 .game-board { /* Div principal */
     width: 80%;
     height: 500px;
@@ -13,6 +22,10 @@
     position: relative;
     overflow: hidden;
     background: linear-gradient(#87CEEB, #E0F6FF);
+    border: 4px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5); /* Sombra branca com opacidade */
+
 }
 
 .pipe { /* Ajustando imagem do Tubo(pipe) */
