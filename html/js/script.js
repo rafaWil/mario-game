@@ -15,7 +15,7 @@ const loop = setInterval(() => {
     const pipePosition = pipe.offsetLeft; //Pegando imagem do pipe para usarmos a posição 
     const marioPosition = +window.getComputedStyle(mario).bottom.replace('px', ''); //Pegando imagem mario e todos os estilos aplicados, usando + para fazer conversao em valores numericos
     
-    if (pipePosition <= 120) { //Condicao para verificar posicao do mario com o pipe
+    if (pipePosition <= 120 && pipePosition > 0 && marioPosition < 80) { //Condicao para verificar posicao do mario com o pipe para executar funções
 
         pipe.style.animation ='none';
         pipe.style.left = `${pipePosition}px`; //Quando ele tocar no pipe ele para nesta posicao 
