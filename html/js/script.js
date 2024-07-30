@@ -17,6 +17,7 @@ const loop = setInterval(() => {
     if (pipePosition <= 120) { //Condicao para verificar posicao do mario com o pipe
 
         pipe.style.animation ='none';
+        pipe.style.left = `${pipePosition}px`; //Quando ele tocar no pipe ele para nesta posicao 
     }
 
 }, 10);
