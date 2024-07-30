@@ -19,6 +19,10 @@ const loop = setInterval(() => {
 
         pipe.style.animation ='none';
         pipe.style.left = `${pipePosition}px`; //Quando ele tocar no pipe ele para nesta posicao 
+
+        mario.style.animation ='none';
+        mario.style.bottom = `${marioPosition}px`; //Para parar o mario aonde ele encostar no tubo(PIPE)
+
     }
 
 }, 10);
