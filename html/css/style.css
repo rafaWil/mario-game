@@ -20,6 +20,11 @@
     animation: pipe-animation 2s infinite linear; /* Uma animacao infinita */ 
 }
 
+.mario { /*Class mario */
+    width: 150px;
+}
+
+
 @keyframes pipe-animation { /*Incluindo animacao do meu pipe */
     from {
         right: -80px; /* Para ele aparecer como sequencia, nao só do nada */
