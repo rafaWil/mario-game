@@ -19,3 +19,13 @@
     width: 80px;
     right: 0; /* Deslocando para direita */
 }
+
+@keyframes pipe-animation { /*Incluindo animacao do meu pipe */
+    from {
+        right: 0;
+    }
+
+    to {
+        right: 100%;
+    }
+}
