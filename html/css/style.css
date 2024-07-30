@@ -22,8 +22,9 @@
 
 .mario { /*Class mario */
     width: 150px;
+    position: absolute;
+    bottom: 0;
 }
-
 
 @keyframes pipe-animation { /*Incluindo animacao do meu pipe */
     from {
@@ -33,4 +34,8 @@
     to {
         right: 100%;
     }
+}
+
+@keyframes jump {
+    
 }
