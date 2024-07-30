@@ -32,6 +32,12 @@
     animation: jump 500ms infinite ease-out; /*Atributos sobre o pulo */
 }
 
+.clouds {
+    width: 500px;
+    position: absolute;
+    animation: clouds-animation 20s infinite linear;
+}
+
 
 @keyframes pipe-animation { /*Incluindo animacao do meu pipe */
     from {
@@ -66,3 +72,14 @@
     }
 
 } /*Animcao de pulo do mario */
+
+@keyframes clouds-animation { /*Animacao das nuvens */
+
+    from {
+        right: -500px;
+    }
+
+    to {
+        right: 100%;
+    }
+}
