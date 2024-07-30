@@ -24,4 +24,4 @@ const loop = setInterval(() => {
 }, 10);
 
 
-document.addEventListener('keydown', jump);
+document.addEventListener('keydown', jump); // Quando clicar em qualquer botao executar minha ação de pular 
