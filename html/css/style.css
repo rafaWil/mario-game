@@ -17,7 +17,7 @@
     position: absolute;
     bottom: 0;
     width: 80px;
-    right: 0; /* Deslocando para direita */
+    animation: pipe-animation 2s infinite;
 }
 
 @keyframes pipe-animation { /*Incluindo animacao do meu pipe */
