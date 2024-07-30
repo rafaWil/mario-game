@@ -24,8 +24,12 @@
     width: 150px;
     position: absolute;
     bottom: 0;
+}
+
+.jump {
     animation: jump 500ms infinite ease-out; /*Atributos sobre o pulo */
 }
+
 
 @keyframes pipe-animation { /*Incluindo animacao do meu pipe */
     from {
