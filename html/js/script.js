@@ -28,6 +28,8 @@ const loop = setInterval(() => {
         mario.style.width = '75px'; //Adicionando tamanho ao meu mario quando der game over
         mario.style.marginLeft = '50px'; //Colocando uma margin mais apropriada ao visual do game over
 
+        clearInterval(loop); //Para fazer o programa parar meu loop 
+
     }
 
 }, 10);
