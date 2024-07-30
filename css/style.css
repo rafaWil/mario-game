@@ -1,9 +1,11 @@
 * {
+    /*Resetando meu BODY */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 .game-board {
-    
+    width: 80%;
+    height: 500px;
 }
